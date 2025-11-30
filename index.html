@@ -2,31 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/facicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tob.li</title>
   </head>
-  <body data-spy="scroll" data-target="#nav">
+  <body>
 
 	<nav id="nav" class="navbar fixed-top navbar-light bg-light">
 		<div class="container">
 			<a class="navbar-brand" href="#">tob.li</a>
-			<ul class="nav nav-main nav-pills justify-content-end">
-				<li class="nav-item">
-					<a class="nav-link active" href="#header" section-target="header">About Me</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#work" section-target="work">My Work</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#contact" section-target="contact">Contact</a>
-				</li>
-			</ul>
-			<ul class="nav nav-burger justify-content-end">
-				<li>
-					<i class="fa fa-bars"></i>
-				</li>
-			</ul>
 		</div>
 	</nav>
 
@@ -38,7 +22,7 @@
 				who loves to play soccer, eat food all day and play video games.</p>
 				<a class="btn btn-outline-dark connect-button" role="button" href="https://github.com/Tandoraz"><i class="fa fa-github"></i></a>
 				<a class="btn btn-outline-dark connect-button" role="button" href="https://codepen.io/Tandoraz"><i class="fa fa-codepen"></i></a>
-				<a class="btn btn-outline-dark connect-button" role="button" href="https://www.instagram.com/tandoraz"><i class="fa fa-instagram"></i></a>
+				<a class="btn btn-outline-dark connect-button" role="button" href="https://www.linkedin.com/in/tobias-b%C3%BCrgi-046a88154/"><i class="fa fa-linkedin"></i></a>
 			</div>
 		</div>
 
@@ -54,10 +38,10 @@
 						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;age: <span class="number" id="age"> </span>,</span>
 						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;gender: <span class="string">"Male"</span>,</span>
 						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;nationality: <span class="string">"Swiss"</span>,</span>
-						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;job: <span class="string">"Junior Software Developer"</span>,</span>
+						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;job: <span class="string">"DevOps Engineer"</span>,</span>
 						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;company: <span class="string">"SBB CFF FFS"</span>,</span>
 						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;hobbies: [</span>
-						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Football"</span>,</span>
+						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Football"</span>,</span>
 						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Programming"</span>,</span>
 						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Gaming"</span>,</span>
 						<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Netflix"</span></span>
@@ -70,7 +54,7 @@
 
 	<section id="work">
 		<div class="section-title">
-			<h1 align="center">My Work</h1>
+			<h1 align="center">Projects</h1>
 		</div>
 
 		<div class="container">
@@ -82,7 +66,6 @@
 							<i class="fa fa-code icon" aria-hidden="true"></i>
 					    <h4 class="card-title">Coming soon...</h4>
 					    <p class="card-text">Here I am gonna list all of my projects, which I am going to do.</p>
-							<!--<a href="#">More <i class="fa fa-angle-right" aria-hidden="true"></i></a>-->
 					  </div>
 					</div>
 				</div>
@@ -91,39 +74,6 @@
 		</div>
 	</section>
 
-	<section id="contact">
-		<div class="section-title">
-			<h1 align="center">Get in Touch</h1>
-		</div>
-
-		<div class="container">
-			<form id="mailForm">
-			  <div class="form-group row">
-					<div class="form-group col-md-5 offset-md-1">
-  					<input type="text" class="form-control" name="name" placeholder="Name">
-					</div>
-					<div class="form-group col-md-5">
-						<input type="email" class="form-control" name="email" placeholder="Email">
-					</div>
-			    <div class="form-group col-md-10 offset-md-1">
-					   <textarea class="form-control" name="message" rows="10" placeholder="Message"></textarea>
-			    </div>
-					<div class="form-group col-md-10 offset-md-1">
-						<button type="submit" class="btn btn-outline-dark btn-lg btn-block">Send Message</button>
-					</div>
-			  </div>
-			</form>
-		</div>
-	</section>
-
-	<footer class="text-muted">
-    <div class="container">
-      <p class="float-right">
-        <a href id="backToTop">Back to top</a>
-      </p>
-      <p>&copy; Tobias Bürgi 2017</p>
-    </div>
-	</footer>
-
+	<script type="module" src="/src/main.js"></script>
 </body>
 </html>

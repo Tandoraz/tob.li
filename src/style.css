@@ -8,12 +8,6 @@ html, body {
   position: relative;
 }
 
-input:focus,
-textarea:focus {
-  border-color: rgb(162, 168, 174) !important;
-  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, .25) !important;
-}
-
 button {
   cursor: pointer;
 }
